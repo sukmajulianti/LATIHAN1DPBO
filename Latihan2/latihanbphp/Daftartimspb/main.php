@@ -6,6 +6,7 @@
 
 	include "SepakBola.php";
 	
+	//Proses menampilkan output daftar tim sepak bola yang dapat diakses pada browser
 	echo "<h2> TIM SEPAKBOLA </h2>";
 	
 	//tim pertama
