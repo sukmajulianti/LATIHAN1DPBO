@@ -2,19 +2,21 @@
 	/* Buat program untuk membuat daftar mahasiswa yang memiliki atribut
 	NIM, Nama, Jenis Kelamin, Program Studi, dan Semester, menggunakan
 	bahasa PHP! */
- 
- class Mahasiswa{
 
+ //Membuat kelas untuk daftar mhs
+ class Mahasiswa{
+	//beberapa atribut dalam data kelas mahasiswa
 	private $nim;
 	private $nama;
 	private $jenis_kelamin;
 	private $prodi;
 	private $semester;
-		
+	
+	//Metode khusus constructor
 	function __construct(){
 	}
 		
-		
+	//Proses fungsi yang terdapat dalam kelas mahasiswa
 	function setNim($nim){
 		$this->nim = $nim;
 	}
@@ -54,7 +56,8 @@
 	function getSemester(){
 		return $this->semester;
 	}
-		
+	
+	 //Metode khusus destructor
 	 function __destruct(){
 	 }
 }
