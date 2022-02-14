@@ -1,5 +1,6 @@
+//Membuat suatu kelas untuk menampung daftar tim sepak bola
 class SepakBola{
-	
+	//Beberapa atribut tim sepak bola bersifat private
 	private String nama;
 	private String negara;
 	private String tahun;
