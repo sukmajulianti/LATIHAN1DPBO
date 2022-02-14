@@ -1,5 +1,6 @@
+//Pembuatan kelas untuk tim sepak bola
 class SepakBola{
-	
+	//Beberapa atribut tim sepak bola yang bersifat private
 	private:
 	string nama;
 	string negara;
@@ -8,9 +9,12 @@ class SepakBola{
 	string pendiri;
 	string manajer;
 	
+	//constructor
 	public:
 	SepakBola(){
 	}
+	
+	//Beberapa prosedur/fungsi menggunakan setter & getter
 	
 	void setNama(string nama){
 		this->nama = nama;
@@ -60,6 +64,7 @@ class SepakBola{
 		return this->manajer;
 	}
 	
+	//destructor
 	~SepakBola(){
 	}
 };
