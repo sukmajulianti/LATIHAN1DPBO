@@ -1,5 +1,6 @@
 class Main{
-
+	
+	//instansiasi
 	public static void main(String[] args){
 	SepakBola tim1;
 	SepakBola tim2;
