@@ -6,6 +6,7 @@ using namespace std;
 
 int main(){
 	
+	//instansi objek tim sepak bola menggunakan setter dari objek
 	SepakBola tim1;
 	SepakBola tim2;
 	SepakBola tim3;
