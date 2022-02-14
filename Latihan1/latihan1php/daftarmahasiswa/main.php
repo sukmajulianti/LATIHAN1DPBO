@@ -3,9 +3,11 @@
 	/* Buat program untuk membuat daftar mahasiswa yang memiliki atribut
 	NIM, Nama, Jenis Kelamin, Program Studi, dan Semester, menggunakan
 	bahasa PHP! */
-
+	
+	//menyertakan file sebelumnya pada main
 	include "Mahasiswa.php";
 	
+	//proses set dan get dalam menampilkan output di browser
 	echo "<h2> UNIVERSITAS PENDIDIKAN INDONESIA </h2>";
 	$kmahasiswa = new Mahasiswa();
 	$kmahasiswa->setNim("NIM : 2009110");
